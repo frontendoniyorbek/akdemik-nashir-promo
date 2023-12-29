@@ -318,3 +318,61 @@ p {
 	border-radius: 12px;
 }
 /* PROMOTION END */
+
+/* FOOTER START */
+.footer {
+	padding-top: 56px;
+	padding-bottom: 56px;
+	background-color: #f8f8f8;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.footer-top-link {
+	width: 228px;
+	height: 60px;
+	transition: opacity 0.4s ease;
+}
+
+.footer-top-link:hover {
+	opacity: 0.8;
+}
+
+.footer-top-link:active {
+	opacity: 0.6;
+}
+
+.footer-top-list {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-top-item:not(:last-child) {
+	margin-right: 16px;
+}
+
+.footer-top-item a {
+	color: #252420;
+	transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.footer-top-item a:hover {
+	color: #ff7500;
+}
+
+.footer-top-item a:active {
+	opacity: 0.6;
+}
+
+.footer-hr {
+	background-color: rgba(37, 36, 32, 0.5);
+	height: 2px;
+	border: none;
+}
+/* FOOTER END */
